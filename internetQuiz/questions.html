@@ -1,0 +1,205 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Questions!</title>
+		<link rel = "stylesheet" href = "style.css" />
+		<style></style>
+		<script src="utilities.js"></script>
+	</head>
+	
+	<body onload = "initialize()">
+		<div id = "q1">
+			<h1>QUESTION ONE</h1>
+			
+			<p id = "question">What do you like to do on the weekend?</p>
+			<div id = "answers">
+				<p id = "phraseA" >a) Play with a chameleon</p> <p id = "phraseB" >b) Learn to speak Gibberish</p>
+				<br />
+				<img id = "choice" src = "pics/1a.jpg" onclick = "answerQuestion(0, updateScoreA, 0);"/>
+				<img id = "choice" src = "pics/1b.jpg" onclick = "answerQuestion(0, updateScoreC, 1);"/>
+				<br />
+				<p id = "phraseC" >c) Obtain telepathic powers</p> <p id = "phraseD">d) Do jumping jacks with Terry Crews</p>
+				<br />
+				<img id = "choice" src = "pics/1c.jpg" onclick = "answerQuestion(0, updateScoreB, 2);"/>
+				<img id = "choice" src = "pics/1d.jpg" onclick = "answerQuestion(0, updateScoreD, 3);"/>
+			</div>
+		</div>
+		
+		
+		<div id = "q2">
+			<h1>QUESTION TWO</h1>
+			
+			<p id = "question">Which broccoli speaks to your <b>SOUL</b>?</p>
+			<div id = "answers">
+				<p id = "phraseA2">a) Happy Broccoli</p> <p id = "phraseB2" >b) Coolest Broccoli</p>
+				<br />
+				<img id = "choice" src = "pics/2a.jpg" onclick = "answerQuestion(1, updateScoreD, 0);"/>
+				<img id = "choice" src = "pics/2b.jpg" onclick = "answerQuestion(1, updateScoreC, 1);"/>
+				<br />
+				<p id = "phraseC2" >c) Master Coder Broccoli</p> <p id = "phraseD2">d) Jacked Broccoli</p>
+				<br />
+				<img id = "choice" src = "pics/2c.jpg" onclick = "answerQuestion(1, updateScoreB, 2);"/>
+				<img id = "choice" src = "pics/2d.jpg" onclick = "answerQuestion(1, updateScoreA, 3);"/>
+			</div>
+		</div>
+		
+		<div id = "q3">
+			<h1>QUESTION THREE</h1>
+			
+			<p id = "question">Which Disney character do you despise the most >:(?</p>
+			<div id = "answers">
+				<p id = "phraseA3">a) Genie</p> <p  id = "phraseB3" >b) Mushu</p>
+				<br />
+				<img id = "choice" src = "pics/3a.jpg" onclick = "answerQuestion(2, updateScoreD, 0);"/>
+				<img id = "choice" src = "pics/3b.jpg" onclick = "answerQuestion(2, updateScoreB, 1);"/>
+				<br />
+				<p id = "phraseA3" >c) Sebastian</p> <p id = "phraseB3">d) Maximus</p>
+				<br />
+				<img id = "choice" src = "pics/3c.jpg" onclick = "answerQuestion(2, updateScoreC, 2);"/>
+				<img id = "choice" src = "pics/3d.jpg" onclick = "answerQuestion(2, updateScoreA, 3);"/>
+			</div>
+		</div>
+		
+		
+		<div id = "q4">
+			<h1>QUESTION FOUR</h1>
+			
+			<p id = "question">Which is your favorite candy?</p>
+			<div id = "answers">
+				<p id = "phraseA4">a) Kit Kat</p> <p id = "phraseB3">b) Reeses Pieces</p>
+				<br />
+				<img id = "choice" src = "pics/4a.png" onclick = "answerQuestion(3, updateScoreD, 0);"/>
+				<img id = "choice" src = "pics/4b.png" onclick = "answerQuestion(3, updateScoreA, 1);"/>
+				<br />
+				<p id = "phraseA3">c) Snickers</p> <p id = "phraseB3">d) Crunch</p>
+				<br />
+				<img id = "choice" src = "pics/4c.png" onclick = "answerQuestion(3, updateScoreB, 2);"/>
+				<img id = "choice" src = "pics/4d.png" onclick = "answerQuestion(3, updateScoreD, 3);"/>
+			</div>
+		</div>
+		
+		
+		<div id = "q5">
+			<h1>QUESTION FIVE</h1>
+			
+			<p id = "question">Which meme speaks to your <b>SOUL</b>?</p>
+			<div id = "answers">
+				<p id = "phraseA5">a) Hungry</p> <p id = "phraseB5">b) Scary Bengal Tiger</p>
+				<br />
+				<img id = "choice" src = "pics/5a.jpg" onclick = "answerQuestion(4, updateScoreA, 0);"/>
+				<img id = "choice" src = "pics/5b.jpg" onclick = "answerQuestion(4, updateScoreD, 1);"/>
+				<br />
+				<p id = "phraseC5">c) Drama</p> <p id = "phraseD5">d) Refreshing</p>
+				<br />
+				<img id = "choice" src = "pics/5c.jpg" onclick = "answerQuestion(4, updateScoreC, 2);"/>
+				<img id = "choice" src = "pics/5d.jpg" onclick = "answerQuestion(4, updateScoreB, 3);"/>
+			</div>
+		</div>
+		
+		
+		<div id = "q6">
+			<h1>QUESTION SIX</h1>
+			
+			<p id = "question">Which represents your mood right now?</p>
+			<div id = "answers">
+				<p id = "phraseA6">a) "Everything is exquisite"</p> <p id = "phraseB6">b) "Be deep like the sea"</p>
+				<br />
+				<img id = "choice" src = "pics/6a.jpg" onclick = "answerQuestion(5, updateScoreC, 0);"/>
+				<img id = "choice" src = "pics/6b.jpg" onclick = "answerQuestion(5, updateScoreA, 1);"/>
+				<br />
+				<p id = "phraseC6">c) "I hunger"</p> <p id = "phraseD6">d) "I am master coder"</p>
+				<br />
+				<img id = "choice" src = "pics/6c.jpg" onclick = "answerQuestion(5, updateScoreD, 2);"/>
+				<img id = "choice" src = "pics/6d.jpg" onclick = "answerQuestion(5, updateScoreB, 3);"/>
+			</div>
+		</div>
+		
+		
+		<div id = "q7">
+			<h1>QUESTION SEVEN</h1>
+			
+			<p id = "question">Which hairstyle do you think you would rock?</p>
+			<div id = "answers"> 
+				<p id = "phraseA7">a) Free Hat</p> <p id = "phraseB7">b) My Porcupine Friend</p>
+				<br />
+				<img id = "choice" src = "pics/7a.jpg" onclick = "answerQuestion(6, updateScoreD, 0);"/>
+				<img id = "choice" src = "pics/7b.jpg" onclick = "answerQuestion(6, updateScoreB, 1);"/>
+				<br />
+				<p id = "phraseC7">c) I luv strawberries</p> <p id = "phraseD7">d) Rubber Band Ball</p>
+				<br />
+				<img id = "choice" src = "pics/7c.jpg" onclick = "answerQuestion(6, updateScoreA, 2);"/>
+				<img id = "choice" src = "pics/7d.jpg" onclick = "answerQuestion(6, updateScoreC, 3);"/>
+			</div>
+		</div>
+			
+			
+		<div id = "q8">
+			<h1>QUESTION EIGHT</h1>
+			
+			<p id = "question">What is your favorite color of the alphabet?</p>
+			<div id = "answers">
+				<p id = "phraseA3">a) Frue</p> <p id = "phraseB3">b) Talse</p>
+				<br />
+				<img id = "choice" src = "pics/8a.jpg" onclick = "answerQuestion(7, updateScoreA, 0);"/>
+				<img id = "choice" src = "pics/8b.jpg" onclick = "answerQuestion(7, updateScoreC, 1);"/>
+				<br />
+				<p id = "phraseA3">c) True</p> <p id = "phraseB3">d) False</p>
+				<br />
+				<img id = "choice" src = "pics/8a.jpg" onclick = "answerQuestion(7, updateScoreB, 2);"/>
+				<img id = "choice" src = "pics/8b.jpg" onclick = "answerQuestion(7, updateScoreD, 3);"/>
+			</div>
+		</div>
+		
+		
+		<div id = "q9">
+			<h1>QUESTION NINE</h1>
+			
+			<p id = "question">Where would you want to travel?</p>
+			<div id = "answers">
+				<p id = "phraseA9">a) Budapest, Hungary</p> <p id = "phraseB9">b) Avenue of Baobobs, Madagascar</p>
+				<br />
+				<img id = "choice" src = "pics/9a.jpg" onclick = "answerQuestion(8, updateScoreB, 0);"/>
+				<img id = "choice" src = "pics/9b.jpg" onclick = "answerQuestion(8, updateScoreC, 1);"/>
+				<br />
+				<p id = "phraseC9">c) Havana, Cuba</p> <p id = "phraseD9">d) Machu Picchu, Peru</p>
+				<br />
+				<img id = "choice" src = "pics/9c.jpg" onclick = "answerQuestion(8, updateScoreD, 2);"/>
+				<img id = "choice" src = "pics/9d.jpg" onclick = "answerQuestion(8, updateScoreA, 3);"/>
+			</div>
+		</div>
+			
+			
+		<div id = "q10">
+			<h1>QUESTION TEN</h1>
+			
+			<p id = "question">Finally, which is your favorite color?</p>
+			<div id = "answers">
+				<p id = "phraseA3">a) Red</p> <p id = "phraseB3">b) Green</p>
+				<br />
+				<img id = "choice" src = "pics/10a.jpg" onclick = "answerQuestion(9, updateScoreD, 0);"/></a>
+				<img id = "choice" src = "pics/10b.jpg" onclick = "answerQuestion(9, updateScoreB, 1);"/></a>
+				<br />
+				<p id = "phraseA3">c) Blue</p> <p id = "phraseB3">d) Yellow</p>
+				<br />
+				<img id = "choice" src = "pics/10c.jpg" onclick = "answerQuestion(9, updateScoreC, 2);"/></a>
+				<img id = "choice" src = "pics/10d.jpg" onclick = "answerQuestion(9, updateScoreA, 3);"/></a>
+			</div>
+		</div>
+		
+		<input type = "image" src = "pics/leftarrow.png" id = "leftArrow" onclick = "switchQuestion(currentQuestion - 1)"/>
+		<input type = "image" src = "pics/rightarrow.png" id = "rightArrow" onclick = "switchQuestion(currentQuestion + 1)"/>
+		<input type = "image" src = "pics/submitButton.png" id = "submitButton" onclick = "calculateResult()"/>
+		
+		<br />
+		
+		<input type = "image" src = "pics/resetButton.png" id = "button" onClick = "window.location.reload()"/>
+		
+		<div class = "copyright">
+			&copy; Wedetermineyourfuture Inc. 
+			
+			<br />
+			
+			All rights reserved
+		</div>
+	</body>
+</html>

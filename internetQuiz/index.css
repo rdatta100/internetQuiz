@@ -1,0 +1,38 @@
+html
+{
+	padding-left:60px;
+	padding-right:60px;
+	padding-top:none;
+}
+
+a:link, a:visited 
+{
+  background-color: LemonChiffon;
+  color: black;
+  padding: 20px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+}
+a:hover
+{
+  background-color: white;
+}
+img
+{
+	border-radius: 30px;
+	padding: 10px; 
+	width: 225px;
+	height: 275px;  
+}
+div 
+{
+	font-size: 15px;
+	margin-top:1px;
+}
+.copyright
+{
+	font-size: 12px;
+	margin-top:1px;
+}
